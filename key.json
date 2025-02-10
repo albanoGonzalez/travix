@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "neat-element-338511",
+  "private_key_id": "a395fbff7d1f8fd168d46da1468f94a6028fb108",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDA9r8XczH7MdPA\nsTMcGTvcpAwZVFLv10eHZnm7+lLaRDq1hlMkSnrK7Fk+myOd7fAbY7ZpHb6iyqS/\nU1wCbzQ3iE8B+FDVJM1euXurXCGGczj8tokaAXjyUE5X41KCdyk43EHFHZNXo0Cw\nk6z1wZxufilHmYLZMgftZ0FJIMhu+NJGwtyok6awhTCNh4Y1RJGjL9TYL0GATGBL\n5a5hCZi08GLbnFskCu0m2f4xbx+fXl6kpMSlfERyky5kFYTIN3jzhizkOIibxJ55\nbSfzfA0Gwtb2OadL7fste1c4cIvWeBvCTXOKtmrqrvigucBaf/E7BCDnbp+8p9h0\noNbmQwwbAgMBAAECggEAQM5+FkebiTROXGCG/FBjQPKdl6Iw6plATjK1/tKPIfwZ\nRZ7z7HPRMrbXMEYVW7SuV9yQxlP1kyIA27sI405q2J3AfzZhG3ytNruP09jw74Fi\nKcm6WRAWiTc8YJsZunR/1TdwJV4N/rh3APbP94fLXHalsYTWo9CARhTQIdnPRylX\neVero0gW+ccRR95NN5D2wWsgzSPk1a+ferCAiQEayQFo6eupi3PAkzfWwve+kKWR\n0Q/Chk49QZIH7FsImNaCUGk+fu2XsNMlbcjDFRRKQw/5CAa6YhCJO1A+VW1nFq1K\n1fSsUrfb5yFSgBuHYlFun1B6c/OSwUwLMq0XN8GV3QKBgQDuYCZvy/NdjY0rZZUU\nJihHF7pq9N3AYgSjb6uvY0+MFYgDKnXoOybPy9i2gqG87t1kkFvOKwlMRY6zbxMM\nq2CkEb/YVddZkRu4IyFjjSTKZx5A1CiEYDFJ/bdA2J7zP8QLYYftt8Iu/6N2+IZR\nIhawDj0TOmnVEWvimfkNJszptQKBgQDPOxEGPOdBAJxkVOwlfrNC3qq1koXNd8Mq\n9a/F2sw8jU7SZCdAdbIwaDf2ZzPzkehLNtnUUtxNnLjov1h3zNRgLeXQ5LPWNNo5\nG8vsP6/1a4RGZGlxxL7nhA+BdQrOzgbXH1kgS0vCpM9GWLW0mZU5vurkAmB/jAZ4\nZtCjAGqAjwKBgQCI4K0xhOs5zQ5C3RG9gCugpv9kazbqQV5oerca/uuuhK6VIsyR\njWW77FGEe35j/sUh+cK9n/i20zodzqohnEbh70856hC+XZSNJ58EiweVMaEtmKWr\nXZDv68BOfBTJmNP5tQdYeSwH0MMMjaiS7gAZGBP59pDOyDIq7D8WTjFcAQKBgQCL\niArTd2iCFQY4bBHAwUm0KbcpoKmlChGIOHsMrmC8GK1M7hCbz2OWQmYD68NIKiMN\nmbYbx1r8ixzZ4hSQPYN16xGFkKgh/947e6LXxJ4WkjkzKGLzLnUX74x9LzCCxKhI\napwZKXmuakgB5rMaEhsvEYSY15zf5IlqwleSmTIcswKBgQC0EQPkhtVVz5XFXYVY\nL7RlAGha52d7aU8NEujBm8L+RJqqq6ofqEpEDFiydEOqlrX9VUbNmnPGAbBAFTDw\nx8RpnfIInJWfEhaP5GrJRX0IzuCbKRUMskrkPcMx0mq76d4QNtPDDh6tuYUMDNm/\nn4f1/vw/C/GWSc7DrrFEQFO1eQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "albano-administrator@neat-element-338511.iam.gserviceaccount.com",
+  "client_id": "118100664352044431544",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/albano-administrator%40neat-element-338511.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
