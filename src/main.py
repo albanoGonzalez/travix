@@ -13,6 +13,8 @@ json_path = "../key.json"
 # Load the credentials
 credentials = service_account.Credentials.from_service_account_file(json_path)
 publisher = pubsub_v1.PublisherClient(credentials=credentials)
+subscriber = pubsub_v1.SubscriberClient(credentials=credentials)
+
 # Settings
 PROJECT_ID = "neat-element-338511"
 
@@ -29,6 +31,18 @@ def create_topic(project_id, topic_id,publisher):
         print(f"Error while creating the topic: {e}")
     return topic_path
 
+def create_subscription(project_id, topic_id,subscriber,subscription_id):
+    topic_path = f"projects/{project_id}/topics/{topic_id}"
+    subscription_path = f"projects/{project_id}/subscriptions/{subscription_id}"
+
+    # Create the subscription
+    try:
+        subscription = subscriber.create_subscription(
+            request={"name": subscription_path, "topic": topic_path}
+        )
+        print(f"Subscription created: {subscription.name}")
+    except Exception as e:
+        print(f"Error while creating the subscription: {e}")
 
 def topic_exists(project_id, topic_id, publisher):
     topic_path = publisher.topic_path(project_id, topic_id)
@@ -81,11 +95,10 @@ if __name__ == "__main__":
             print(name)
             if not topic_exists(PROJECT_ID, name, publisher):
                 topic_path = create_topic(PROJECT_ID, name, publisher)
+                subscription_id = "testing"
+                create_subscription(PROJECT_ID, name, subscriber,subscription_id)
                 print(topic_path)
             publish_data(publisher,filename,PROJECT_ID,name)
-
-            ###3 subscription i need it
-
 
 
 
